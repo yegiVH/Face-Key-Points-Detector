@@ -73,7 +73,7 @@ Extract it, and place `shape_predictor_68_face_landmarks.dat` inside the **model
 
 ---
 
-## 🚀 Run the Project
+## Run the Project
 
 ```bash
 python -m src.detect_keypoints
@@ -115,4 +115,5 @@ Install all automatically with:
 ```bash
 pip install -r requirements.txt
 ```
+
 
