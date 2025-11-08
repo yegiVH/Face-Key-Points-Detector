@@ -36,5 +36,83 @@ Face-Key-Points-Detector/
 │
 ├─ requirements.txt
 └─ .gitignore
+````
 
+---
+
+## Setup (Windows Example)
+
+### Create and activate a virtual environment
+
+```bash
+cd "C:\Users\asus\Face-Key-Points-Detector"
+python -m venv venv
+venv\Scripts\Activate
+```
+
+If PowerShell blocks activation:
+
+```bash
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+venv\Scripts\Activate
+```
+
+### Install dependencies
+
+```bash
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+### Download the pretrained model
+
+Download this file:
+👉 [shape_predictor_68_face_landmarks.dat.bz2](https://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)
+
+Extract it, and place `shape_predictor_68_face_landmarks.dat` inside the **models/** folder.
+
+---
+
+## 🚀 Run the Project
+
+```bash
+python -m src.detect_keypoints
+```
+
+You’ll see:
+
+1. An OpenCV window showing detected facial landmarks.
+2. A Matplotlib window with the landmark graph.
+3. Both saved automatically in the `results/` folder.
+
+---
+
+## Example Results
+
+### 🎯 Landmark Detection
+
+<img src="results/landmarks_example.png" width="350">
+
+### 🌐 Graph Representation
+
+<img src="results/graph_example.png" width="350">
+
+*(Tip: you can rename one pair of output images to `landmarks_example.png` and `graph_example.png` to keep them as fixed samples in your repo.)*
+
+---
+
+## Requirements
+
+* Python ≥ 3.9
+* dlib
+* opencv-python
+* numpy
+* networkx
+* matplotlib
+
+Install all automatically with:
+
+```bash
+pip install -r requirements.txt
+```
 
