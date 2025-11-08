@@ -91,11 +91,11 @@ You’ll see:
 
 ### 🎯 Landmark Detection
 
-<img src="results/landmarks_example.png" width="350">
+<img src="results/landmarks_20251108_171754.png" width="350">
 
 ### 🌐 Graph Representation
 
-<img src="results/graph_example.png" width="350">
+<img src="results/graph_20251108_171754.png" width="350">
 
 *(Tip: you can rename one pair of output images to `landmarks_example.png` and `graph_example.png` to keep them as fixed samples in your repo.)*
 
@@ -115,5 +115,6 @@ Install all automatically with:
 ```bash
 pip install -r requirements.txt
 ```
+
 
 
