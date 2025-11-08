@@ -1,11 +1,11 @@
-# 🧠 Face Key Points Detector
+# Face Key Points Detector
 
 This project detects **68 facial landmarks** using `dlib` and visualizes them with **OpenCV** and **NetworkX**.  
 It builds a **graph** where each node is a facial keypoint and edges represent spatial connections based on distance.
 
 ---
 
-## ✨ Features
+## Features
 
 - Detects 68 facial landmarks using the pretrained dlib model  
 - Visualizes landmarks directly on the image using OpenCV  
@@ -36,4 +36,5 @@ Face-Key-Points-Detector/
 │
 ├─ requirements.txt
 └─ .gitignore
+
 
