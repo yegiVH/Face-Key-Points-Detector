@@ -21,7 +21,5 @@ Thumbs.db
 # Large / model files
 models/shape_predictor_68_face_landmarks.dat
 
-# Results
-results/*
-!results/.gitkeep
+
 
