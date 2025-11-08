@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter (if added later)
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Large / model files
+models/shape_predictor_68_face_landmarks.dat
+
+# Results
+results/*
+!results/.gitkeep
+
